@@ -17,64 +17,71 @@ nav {
     border-bottom: 6px solid #77FFC0;
 }
 
-    nav .btn1 {
-        font-family: sans-serif;
-        font-weight: 700;
+nav .btn1 {
+    font-family: sans-serif;
+    font-weight: 700;
 
-        padding: 10px 20px;
-        margin: 10px;
+    padding: 10px 20px;
+    margin: 10px;
 
-        color: #000;
-        background: #77FFC0;
-        border-radius: 5px;
+    color: #000;
+    background: #77FFC0;
+    border-radius: 5px;
 
-        border: none;
-    }
+    border: none;
+}
 
-    nav .btn2 {
-        font-family: sans-serif;
-        font-weight: 700;
+nav .btn2 {
+    font-family: sans-serif;
+    font-weight: 700;
 
-        padding: 10px 20px;
-        margin: 10px;
+    padding: 10px 20px;
+    margin: 10px;
 
-        color: #77FFC0;
-        background-color: #0000;
-        border-radius: 5px;
+    color: #77FFC0;
+    background-color: #0000;
+    border-radius: 5px;
 
-        border: 3px solid #77FFC0;
-    }
+    border: 3px solid #77FFC0;
+}
 
 .mainSite {
     display: flex;
     flex-direction: column;
 }
 
-    .mainSite h1 {
-        margin-bottom: 10px;
-        align-self: center;
-        color: #77FFC0;
-    }
+.mainSite h1 {
+    margin-bottom: 10px;
+    align-self: center;
+    color: #77FFC0;
+}
 
-    .mainSite .filmes {
-        display: flex;
+.mainSite .Lancamentos {
+    display: flex;
 
-        margin: 0 100px;
+    margin: 0 100px;
 
-        flex-direction: row;
-        flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-        gap: 30px;
-    }
+    gap: 30px;
+}
 
-        .filmes .item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 500px;
-            height: 500px;
+.Lancamentos .filmes {
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    width: 500px;
+    height: 500px;
 
-            border-radius: 48px;
+    border-radius: 48px;
 
-            border: 6px solid #77FFC0;
-        }
+    border: 6px solid #77FFC0;
+}
+
+.filmes>img {
+    width: 222px;
+    height: 312x;
+    display: flex;
+    flex-direction: row;
+}
